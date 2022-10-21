@@ -1,0 +1,9 @@
+@font-face {
+    font-family: Shadows Into Light;
+    src: url(ShadowsIntoLight-Regular.ttf);
+}
+p{
+    font-family: Shadows Into Light;
+    font-weight: bolder;
+    font-size: 40px;
+}

@@ -1,0 +1,44 @@
+﻿body{
+    border: 2px solid;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+header{
+    background-color: aqua;
+    display: block;
+    height: 15vh;   
+    padding: 1px;
+}
+h1{
+    font-size: larger;
+}
+nav{
+    background-color: tomato;
+    display: block;
+    padding-top: 1px;
+    height: 10vh; 
+}
+h2{
+    font-size: larger;
+    margin: 0;
+}
+section{
+    height: 63vh;
+    background-color: lightgreen;
+    display: block;
+    float: left;
+    width: 20%;
+}
+main{
+    height: 63vh;
+    background-color: lightgray;
+    display: block;
+}
+footer{
+    height: 10vh;
+    background-color: blue;
+}
+
+
+

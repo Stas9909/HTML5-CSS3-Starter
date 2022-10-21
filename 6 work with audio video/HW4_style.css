@@ -1,0 +1,69 @@
+﻿body{
+    margin: -20px 0;
+    padding: 0;
+    background-color: beige;
+}
+
+.container{
+    height: 100vh;
+    width: 60%;
+    height: 600px;
+    border: 1px solid;
+    overflow: auto;
+    float: left;
+}
+header{
+    height: 20%;
+    background-color: violet;
+    display: block;
+    float: left;
+    width: 100%;
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transform: rotate(-45deg);
+    position: absolute;
+    top:5px;
+}
+nav{
+    height: 20%;
+    background-color: blueviolet;
+    display: block;
+    float: left;
+    width: 100%;
+}
+main{
+    height: 40%;
+    float: left;
+    width: 70%;
+    
+}
+section{
+    height: 50%;
+    background-color: cadetblue;
+    display: block;
+    float: left;
+    width: 100%;  
+}
+article{
+    height: 50%;
+    background-color: lightblue;
+    display: block;
+    float: left;
+    width: 100%;
+    }
+
+aside{
+    height: 40%;
+    background-color: lightgreen;
+    float: left;
+    width: 30%;
+}
+footer{
+    height: 20%;
+    background-color: lightskyblue;
+    clear: both;
+    }
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ПСЕВДОКЛАССЫ</title>
+<style>
+    a:link{color: green;}
+    a:visited{color: red;}
+    a:hover{color: blue;}
+    a:active{color: yellow;}
+    .div1{
+        width: 200px; height: 200px; background-color: aqua;
+    }
+    .div1:hover{
+        width: 250px; height: 250px; background-color: blueviolet;
+    }
+    :empty{background-color: red;}
+    td{width: 100px;}
+    p:first-child{background-color: red;}
+    p:last-child{background-color: yellow;}
+
+    p:first-of-type{background-color: brown;}
+    p:last-of-type{background-color: orange;}
+
+    .class4{
+        color: rgb(48, 19, 164);
+    }
+    :not(.class4){color: black;}
+
+    li{
+        color: purple;
+        
+    }
+    li:nth-child(odd){
+        background-color: aquamarine;
+    }
+    li:nth-child(even){
+        background-color: blue
+
+    };
+    
+    
+    </style>
+</head>
+<body>
+    <a href="https://www.ukr.net/">НОВОСТНОЙ ПОРТАЛ</a><br/>
+    <a href="https://www.i.ua/">СЕЛЕКТОР ПО АТТРИБУТАМ</a>
+    <div class="div1"></div><br/>
+
+    <table border="1">
+        <tr>
+            <td>Ячейка1</td>
+            <td> </td> 
+            <td></td>
+        </tr>
+    </table><br/>
+
+     -->
+        <p>Первый параграф1</p>
+        <p>Параграф</p>
+        <p>Последний параграф</p>
+    <div>
+        <p>Первый параграф2</p>
+        <p>Параграф</p>
+        <p>Последний параграф</p>
+    </div>
+
+    <p class="class4">Текст внутри параграфа. <span>Текст внутри СПЭНа</span> остальной текст
+    </p>
+
+    <ol type="A">
+        <li>1</li> 
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+    </ol>
+    
+</body>
+</html>

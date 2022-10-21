@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Карта-изображение</title>
+    <!-- Задаем цвет области, которую не затрагивает картинка (чтобы было видно границы самой картинки) -->
+    <style>
+        body {background-color: grey; }
+    </style>   
+</head>
+<body>
+    <!-- Узазваем тег USEMAP и его название, к которому будет привязка (НАЗВАНИЕ ОБЯЗАТЕЛЬНО начинаем с #)  -->
+    <img width="50%" src="figure.jpg" usemap="#maparea" />
+    <!-- Теперь указываем название в теге MAPNAME, для задания области, в которой будем -->
+    <map name="maparea">
+        <!-- Сам тег map не задает коорд обл, а это делает тег AREA -->
+        <area href="#" shape="poly" coords="" title="" alt="" />
+        <area href="#" shape="rect" coords="" title="" alt="" />
+        <area href="#" shape="circle" coords="" title="" alt="" />
+        <area href="#" shape="poly" coords="" title="" alt="" />
+        <area href="#" shape="poly" coords="" title="" alt="" />
+        <area href="#" shape="poly" coords="" title="" alt="" />
+    </map>
+    
+    <img src="figure.jpg" usemap="#maparea2" />
+    <map name="maparea2">
+        <!-- В area target указывается ссылка, при нажатии на которую ты переходишь на нужную страничку -->
+        <area target="#" alt="polygon" title="polygon" href="#" coords="603,518,679,284,482,137,278,284,356,518" shape="poly">
+        <area target="#" alt="square" title="square" href="#" coords="734,137,1119,517" shape="rect">
+        <area target="#" alt="circle" title="circle" href="#" coords="1358,330,189" shape="circle">
+        <area target="#" alt="rhombus" title="rhombus" href="#" coords="445,677,595,860,440,1050,293,862" shape="poly">
+        <area target="#" alt="triangle" title="triangle" href="#" coords="767,669,958,1046,577,1047" shape="poly">
+        <area target="#" alt="rectungle" title="rectungle" href="#" coords="993,671,1567,674,1560,1043,991,1043" shape="poly">
+    </map>
+</body>
+</html>

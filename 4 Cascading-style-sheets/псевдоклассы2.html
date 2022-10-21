@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    li{
+        color: purple;
+        
+    }
+    li:nth-child(odd){
+        background-color: aquamarine;
+    }
+    li:nth-child(even){
+        background-color: blue
+    }  
+
+    table{
+        width: 100%; 
+        height: 30vh; 
+    }
+    td{
+        border: 1px solid;
+    }
+    td:nth-last-child(3){
+        background-color: red;
+    }
+    td:nth-last-child(1){
+        background-color: green;
+    }
+
+    td:nth-last-child(2){
+        background-color: cyan;
+    }
+
+    p:only-child{
+        background-color: gray;
+    }
+
+p:only-of-type{
+    color: yellow;
+}
+
+
+        </style>
+</head>
+<body>
+    <ol type="A">
+        <li>1</li> 
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+    </ol><br/>
+    
+    <table>
+    <tr>
+        <td>Наименование</td>
+        <td>цена</td>
+        <td>количество</td>
+        <td>страна изготовитель</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+
+<div>
+    <p>1</p>
+    <p>2</p>
+</div>
+<div>
+    <p>1</p>
+</div>
+<div>
+    <p>1</p>
+    <span>2</span>
+</div>
+</body>
+</html>
